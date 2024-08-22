@@ -1,0 +1,84 @@
+body {
+   background:black;
+   color: white;
+   margin: 0px;;
+   margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 1px rgb(255, 54, 0);
+    padding: 20px;
+    font-size: 48px;
+    color: rgb(255, 54, 0);
+    font-family: "Signika", sans-serif;
+
+}
+
+.titulo-do-inicio {
+    background: rgb(183, 0 ,0);
+    padding-bottom: 80px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-principal {
+    margin-right: 3%;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    padding-left: 10px;
+}
+
+.treino-old-school {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.aba-old-school {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.treino-old-school img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.treino-old-school img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255, 54, 0);
+}
+
+.aba-old-school h2 {
+    color: rgb(255, 54, 0)
+}
+
+.treino-olympia img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.treino-olympia img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255, 54, 0);
+}
+
+.aba-treino-olympia {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.treino-olympia {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.aba-treino-olympia h3 {
+    color: rgb(255, 54, 0);
+    font-size: 25px;
+}
